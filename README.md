@@ -1,2 +1,2 @@
 # Sample_folder_hierarchy
-Using: ASP.NET 5, AnularJs, Ef7, MSSQL
+Using: ASP.NET 5, AngularJs, Ef7, MSSQL
