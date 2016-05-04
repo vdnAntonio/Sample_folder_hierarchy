@@ -1,0 +1,20 @@
+﻿<html>
+    <head>
+         <title>Folders browser</title>
+    </head>
+    <body ng-app="app">
+        <div ng-controller="folderController">
+            <h1>Folder: {{folders.Name}}</h1>
+            <ul>
+                <li ng-repeat="folder in folders.Childs">
+                    <a ng-href="/" ng-click="update(folder.Name)">{{folder.Name}}</a>
+                </li>
+            </ul>
+        </div>
+        <script src="~/lib/angular/angular.js"></script>
+        <script src="~/lib/angular-route/angular-route.js"></script>
+        <script src="~/app/app.js"></script>
+        <script src="~/app/factory.js"></script>
+        <script src="~/app/folderController.js"></script>
+    </body>
+</html>
