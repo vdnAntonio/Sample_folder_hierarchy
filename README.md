@@ -1,4 +1,3 @@
-# Sample folder hierarchy
 ## Using 
 ASP.NET 5, AngularJS
 
